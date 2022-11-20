@@ -70,3 +70,61 @@
   margin-top: 25px;
   background-color: #BDAE82;
 }
+.skills{
+  position: relative;
+  background-color: black;
+  margin: 0 auto;
+  width: 1440px;
+  height: 482px;
+}
+.title{
+  position: relative;
+  color: #BDAE82;
+  width: 700px;
+  height: 80px;
+  padding: 100px 370px 60px 370px;
+}
+.linethrough{
+  border: 1px solid #BDAE82;
+  z-index: 0;
+  position: relative;
+  bottom: 35%;
+}
+.main_word{
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  display: inline;
+  top: 20%;
+  left: 275px;
+  font-family: Merriweather;
+  background: black;
+  z-index: 1;
+}
+.skills .my_skills_list{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.skills .skill_section{
+  font-family: Inter;
+  text-align: center;
+  height: 240px;
+  width: 320px;
+}
+.skills .skill_section img{
+  margin: 0 0 25px 0;
+}
+.skills .skill_section h4{
+  font-size: 20px;
+  margin: 0 0 20px 0;
+}
+.skills .skill_section .description p{
+  margin-left: 20px;
+  text-align: center;
+  width: 280px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;  
+}
