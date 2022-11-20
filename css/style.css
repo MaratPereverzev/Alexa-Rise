@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap');
+
+.page{
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: black;
+}
+.intro_header{
+  background-image: url(../assets/photos/bg.jpg);
+  width: 1440px;
+  height: 910px;
+  margin: 0 auto;
+}
+.bar{
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+.intro_header .bar .logo{
+  margin: 20px 780px 20px 20px;
+}
+.intro_header .bar .nav ul{
+  width: 500px;
+  height: 50px;
+  margin: 20px 0;
+  padding: 0 15px;
+  display: flex;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+.intro_header .bar .nav li{
+  margin: auto 15px;
+}
+.bar .languages{
+  font-weight: bold;
+  padding: 20px 0;
+  width: 70px;
+  display: flex;
+  margin: 0;
+}
+.name{
+  width: 500px;
+  height: 330px;
+  margin: 160px 860px 330px 80px;
+}
+.name h1{
+  font-family: Merriweather;
+  box-sizing: border-box;
+  margin: 0 0 10px 0;
+  padding: 34px 0;
+  font-size: 60px;
+  width: 500px;
+  height: 120px;
+}
+.name p{
+  width: 470px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+.hire_button{
+  border: none;
+  height: 55px;
+  width: 220px;
+  margin-top: 25px;
+  background-color: #BDAE82;
+}
