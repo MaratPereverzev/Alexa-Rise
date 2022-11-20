@@ -222,6 +222,7 @@
   border: 3px solid #BDAE82;
 }
 .contacts{
+  background-color: black;
   margin: 0 auto;
   width: 1440px;
   height: 700px;
@@ -265,4 +266,25 @@
 }
 .contacts .info_section button{
   margin-top: 10px;
+}
+.footer{
+  display: flex;
+  width: 1440px;
+  height: 150px;
+  background: black;
+  margin: 0 auto;
+  align-items: center;
+}
+.footer .end{
+  display: flex;
+  margin-left: 20px;
+  gap: 20px;
+}
+.footer .slogan{
+  margin: 0 406px 0 429px;
+}
+.footer .social_apps{
+  width: 188px;
+  display: flex;
+  justify-content: space-between;
 }
