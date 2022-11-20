@@ -221,3 +221,48 @@
   color: black;
   border: 3px solid #BDAE82;
 }
+.contacts{
+  margin: 0 auto;
+  width: 1440px;
+  height: 700px;
+  background-image: url(../assets/photos/contacts-bg.jpg);
+}
+.contacts .info_section{
+  width: 450px;
+  height: 445px;
+  padding: 60px 20px 195px 970px;
+}
+.contacts .info_section button{
+  width: 220px;
+  height: 55px;
+  background-color: #BDAE82;
+  color: black;
+  border: 3px solid #BDAE82;
+}
+.contacts h1{
+  font-family: Merriweather;
+  width: 450px;
+  height: 80px;
+  margin: 0 0 40px 0;
+  font-size: 40px;
+  color: #BDAE82;
+}
+.contacts .info_section input{
+  box-sizing: border-box;
+  width: 450px;
+  color: #BDAE82;
+  display: block;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 3px solid #BDAE82;
+  border-radius: 0px;
+}
+.contacts .e-mail, .contacts .phone{
+  height: 50px;
+}
+.contacts .message{
+  height: 100px;
+}
+.contacts .info_section button{
+  margin-top: 10px;
+}
