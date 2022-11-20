@@ -162,3 +162,11 @@
   width: 450px;
   height: 560px;
 }
+.video{
+  margin: 0 auto;
+  width: 1440px;
+  height: 945px;
+}
+.video .video_photo{
+  text-align: center;
+}
