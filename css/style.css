@@ -86,6 +86,7 @@
 }
 .linethrough{
   border: 1px solid #BDAE82;
+  background-color: #BDAE82;
   z-index: 0;
   position: relative;
   bottom: 35%;
@@ -127,4 +128,37 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 36px;  
+}
+.portfolio{
+  margin: 0 auto;
+  width: 1440px;
+  height: 1500px;
+}
+.portfolio .main_word{
+  left: 237px;
+}
+.portfolio .season_buttons{
+  text-align: center;
+}
+.portfolio .season_buttons button{
+  width: 220px;
+  height: 55px;
+  background-color: black;
+  color: #BDAE82;
+  border: 3px solid #BDAE82;
+}
+.portfolio .season_buttons .autumn{
+  background-color: #BDAE82;
+  color: black;
+}
+.portfolio .photos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 25px;
+  margin: 60px 20px 0 20px;
+}
+.portfolio .photos img{
+  width: 450px;
+  height: 560px;
 }
