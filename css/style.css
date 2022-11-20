@@ -130,6 +130,7 @@
   line-height: 36px;  
 }
 .portfolio{
+  background-color: black;
   margin: 0 auto;
   width: 1440px;
   height: 1500px;
@@ -163,10 +164,60 @@
   height: 560px;
 }
 .video{
+  background-color: black;
   margin: 0 auto;
   width: 1440px;
   height: 945px;
 }
 .video .video_photo{
   text-align: center;
+}
+.price{
+  background-color: black;
+  width: 1440px;
+  height: 845px;
+  margin: 0 auto;
+}
+.price .price_list{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.price .price_list .price_list_element{
+  box-sizing: border-box;
+  text-align: center;
+  border: 3px solid #BDAE82;
+  width: 450px;
+  height: 505px;
+}
+.price .main_word{
+  left: 280px;
+}
+.price .price_list_element h4{
+  font-family: Merriweather;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 43px 0 20px 0;
+}
+.price .price_list_element h5{
+  font-size: 25px;
+  font-family: Merriweather;
+  color: #BDAE82;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+.price .price_list .price_list_element ul{
+  list-style-type: none;
+  font-size: 18px;
+  font-family: Inter;
+  line-height: 36px;
+  margin-bottom: 40px;
+  padding: 0;
+}
+.price .price_list .price_list_element button{
+  width: 220px;
+  height: 55px;
+  background-color: #BDAE82;
+  color: black;
+  border: 3px solid #BDAE82;
 }
