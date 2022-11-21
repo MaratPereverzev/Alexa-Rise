@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
 .page{
   color: white;
   font-family: 'Inter';
@@ -33,8 +36,12 @@
   list-style-type: none;
   box-sizing: border-box;
 }
-.intro_header .bar .nav li{
+.intro_header .bar .nav a{
   margin: auto 15px;
+}
+a{
+  color: white;
+  text-decoration: none;
 }
 .bar .languages{
   font-weight: bold;
